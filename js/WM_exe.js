@@ -338,8 +338,8 @@ const slinks = new Map();
 		if ( baza ){
 		console.log( "put_GLR_picts ------------------------ begin ------------------------------put_GLR_picts "  );
 			console.log( baza  );
-	//		console.log( "put_GLR_picts ---slinks------- "  );
-	//		console.log( slinks );
+			console.log( "put_GLR_picts ---slinks------- "  );
+			console.log( slinks );
 			let i = 0;
 			$.each( baza, function () {
 				let key = 0;
@@ -349,7 +349,7 @@ const slinks = new Map();
 //				image_tag += "<img src=\"" +DIR+this.image + "\" id="+(iid++)+" title=\""+this.title+" ( "+this.image+" ) \" data_id=\""+this.key+"\"   >";
 				image_tag += "<img src=\"" +DIR+this.image + "\" id="+(iid++)+" title=\""+this.title+" \" data_id=\""+this.key+"\"   >";
 				if ( this.key ){	
-	//				console.log( "GLR_picts.key: "+this.key+" :: "+slinks.get(this.key)  ); 
+		//			console.log( "GLR_picts.key: "+this.key+" :: "+slinks.get(this.key)  ); 
 					key = slinks.get( this.key ); 
 				}
 				if ( this.title ){	
